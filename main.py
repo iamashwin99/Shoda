@@ -45,15 +45,15 @@ else:
     default_index = -1
 if "address" in params:
     st.session_state["address"] = params["address"][0]
-else:
-    st.session_state["address"]="0xd0aD800d5799D114c2B165dA63D47708712B15e8"
+# else:
+#     st.session_state["address"]="0xd0aD800d5799D114c2B165dA63D47708712B15e8"
 
 st.session_state["chains"] = connectedChains
 
 
 # Fill in sidebar data
 with st.sidebar:
-    selected_address = st.text_input("Address", st.session_state["address"],key="address")
+    selected_address = st.text_input("Address", key="address",value='0xd0aD800d5799D114c2B165dA63D47708712B15e8')
     selected = option_menu(
         "Main Menu",
         options=titles,

@@ -52,7 +52,7 @@ def app():
     df = pd.DataFrame()
 
     selectedChains = st.multiselect(
-        "Select chanins :", avaliableChains.keys(), default=['Ethereum'])
+        "Select chains :", avaliableChains.keys(), default=['Ethereum'])
     with st.spinner(f"Fetching data for {selected_address}"):
 
         for chain in selectedChains:
