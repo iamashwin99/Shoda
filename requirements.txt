@@ -4,29 +4,33 @@
 # Shoda/apps/Balances.py: 6
 # Shoda/apps/Portfolio.py: 7
 # Shoda/apps/Tickers.py: 6
+# Shoda/apps/Transactions.py: 6
 pandas == 1.3.5
 
 # Shoda/apps/About.py: 5
 # Shoda/apps/Balances.py: 5
 # Shoda/apps/Portfolio.py: 6
 # Shoda/apps/Tickers.py: 5
+# Shoda/apps/Transactions.py: 5
 plotly == 5.5.0
 
 # Shoda/apps/About.py: 3
 # Shoda/apps/Balances.py: 3
 # Shoda/apps/Portfolio.py: 4
 # Shoda/apps/Tickers.py: 3
+# Shoda/apps/Transactions.py: 3
 requests == 2.27.1
 
 # Shoda/apps/Balances.py: 7
 # Shoda/apps/Tickers.py: 7
+# Shoda/apps/Transactions.py: 7
 st_material_table == 0.0.4
 
 # Shoda/apps/About.py: 1
 # Shoda/apps/Balances.py: 1
 # Shoda/apps/Portfolio.py: 2
 # Shoda/apps/Tickers.py: 1
-# Shoda/apps/Transactions.py: 2
+# Shoda/apps/Transactions.py: 1
 # Shoda/apps/Transfers.py: 2
 # Shoda/apps/Wallet.py: 2
 # Shoda/main.py: 1

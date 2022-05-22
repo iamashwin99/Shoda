@@ -42,7 +42,7 @@ params = st.experimental_get_query_params()
 if "page" in params:
     default_index = int(titles_lower.index(params["page"][0].lower()))
 else:
-    default_index = 0
+    default_index = -1
 if "address" in params:
     st.session_state["address"] = params["address"][0]
 else:
