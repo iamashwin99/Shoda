@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from apps import Balances,Portfolio,Tickers,Transactions,Transfers,Wallet
+from apps import Balances,Portfolio,Tickers,Transactions,Transfers,Wallet,About
 from web3 import Web3
 from ens.auto import ns
 
@@ -26,8 +26,10 @@ apps = [
     {"func": Balances.app, "title": "Balances", "icon": "cash-coin"},
     {"func": Tickers.app, "title": "Tickers", "icon": "bar-chart-steps"},
     {"func": Transactions.app, "title": "Transactions", "icon": "arrows-angle-contract"},
-    {"func": Transfers.app, "title": "Transfers", "icon": "send-check-fill"},
+    # {"func": Transfers.app, "title": "Transfers", "icon": "send-check-fill"},
     {"func": Wallet.app, "title": "Wallet", "icon": "wallet2"},
+    {"func": About.app, "title": "About", "icon": "info-circle"},
+    
 ]
 
 titles = [app["title"] for app in apps]
