@@ -3,4 +3,4 @@ import streamlit as st
 
 
 def app():
-     st.write("Balances")
+     st.title("Balances :bar_chart:")

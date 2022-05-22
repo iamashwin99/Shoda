@@ -3,4 +3,4 @@ import streamlit as st
 
 
 def app():
-    st.write("Tickers")
+    st.title("Tickers :money_with_wings:")

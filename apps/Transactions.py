@@ -3,4 +3,4 @@ import streamlit as st
 
 
 def app():
-    st.write("Transactions")
+    st.title("Transactions :open_file_folder:")
